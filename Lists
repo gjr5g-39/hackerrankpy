@@ -1,0 +1,19 @@
+if __name__ == '__main__':
+    N = int(input())
+    lists=[];
+for i in range(0,N):
+    req=input().split();
+    if req[0] == "insert":
+        lists.insert(int(req[1]),int(req[2]))
+    elif req[0] == "append":
+        lists.append(int(req[1]))
+    elif req[0] == "pop":
+        lists.pop();
+    elif req[0] == "print":
+        print(lists)
+    elif req[0] == "remove":
+        lists.remove(int(req[1]))
+    elif req[0] == "sort":
+        lists.sort();
+    else:
+        lists.reverse();
