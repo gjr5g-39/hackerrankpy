@@ -1,0 +1,18 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+import math
+
+# write your code here
+
+from statistics import mean
+def avg(*num1):
+    return mean(num1)
+
+if __name__ == '__main__':
